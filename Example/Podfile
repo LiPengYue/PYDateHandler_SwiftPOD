@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PYHandlerDate_Swfit_Example' do
+  pod 'PYHandlerDate_Swfit', :path => '../'
+
+  target 'PYHandlerDate_Swfit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
