@@ -1,0 +1,6 @@
+framework module PYHandlerDate_Swfit {
+  umbrella header "PYHandlerDate_Swfit-umbrella.h"
+
+  export *
+  module * { export * }
+}
